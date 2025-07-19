@@ -47,21 +47,17 @@
 | Borra imagen | `docker images rm <id imagen>`|
 | Lista los contenedores |`docker container ls`|
 | Ejecuta una imagen (es un container corriendo) | `docker run <nombre imagen>`|
-| Detiene el container | `docker stop <id container>`|
+| Detener/iniciar  | `docker stop <id container> && docker start <id container>`     |
 | Muestra todos los contenedores que se están ejecutando | `docker ps`|
-| Ver log de errores | `docker logs <name container>` |
+| Ver logs         | `docker logs -f <name container>`         |
 | Inicia todos los servicios del contenedor, Usa -d para detached (en segundo plano) | `docker compose up` |
 | Detiene todos los servicios del contenedor, si querés borrar volúmenes usa --volumes| `docker compose down` |
 | Construye las imágenes definidas en el Compose | `docker compose build`|
 | Ejecuta un comando dentro de un contenedor existente | `docker exec [OPCIONES] [contenedor] [comando] [argumentos]`|
 | Muestra estado actual de los servicios. | `docker compose ps`|
 | Muestra logs de los servicios en ejecución | `docker compose logs` |
-| Descargar imagen | `docker pull ubuntu`                      |
-| Crear contenedor | `docker run -d --name web -p 80:80 nginx` |
-| Ejecutar comando | `docker exec -it web bash`                |
-| Inspeccionar     | `docker inspect web`                      |
-| Ver logs         | `docker logs -f web`                      |
-| Detener/iniciar  | `docker stop web && docker start web`     |
+| Descargar imagen de hub docker | `docker pull <hub-doker-image>`    |
+| Inspeccionar     | `docker inspect <name container>`          |
 | Limpiar recursos | `docker system prune`                     |
 
 ## Options
