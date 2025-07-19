@@ -3,12 +3,14 @@
 <h1 align="center">Docker Guide</h1> 
 <h4 align="right">Aug 22</h4>
 
-<img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
-<img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
-<img src="https://img.shields.io/badge/OS-Windows%2011-blue">
-<img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
-<img src="https://img.shields.io/badge/Node%20-V18.7.0-green">
-<img src="https://img.shields.io/badge/Python%20-V3.9.2-orange">
+<p>
+    <img src="https://img.shields.io/badge/OS%20-Raspbian%20GNU%2FLinux%2011%20(bulleye)-yellowgreen">
+    <img src="https://img.shields.io/badge/OS-Linux%20GNU-yellowgreen">
+    <img src="https://img.shields.io/badge/OS-Windows%2011-blue">
+    <img src="https://img.shields.io/badge/Hardware-Raspberry%20ver%204-red">
+    <img src="https://img.shields.io/badge/Node%20-V18.7.0-green">
+    <img src="https://img.shields.io/badge/Python%20-V3.9.2-orange">
+</p>
 
 <br>
 
